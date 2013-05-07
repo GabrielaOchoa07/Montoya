@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is the full list of specific particularities which you can set for each image. Next to each property is the corresponding overall setting of the Banner.
+When you specify one of these properties as an XML attribute for each image, the corresponding overall setting of the Banner will be ignored.
+
+Particular Property				Overall Property
+_____________________________________________________________
+effect							imageEffects -> type
+zoompercent						imageEffects -> zoomPercent
+dur								imageEffects -> duration
+direction						imageEffects -> direction
+hzoompos						imageEffects -> hZoomPos
+vzoompos						imageEffects -> vZoomPos
+hpos							textOptions -> hPos
+vpos							textOptions -> vPos
+width							textOptions -> width
+height							textOptions -> height
+slide							textEffects -> slide
+appear							textEffects -> appear
+func							textEffects -> function
+type							textBackground -> type
+transition (a transition ID from the transitions list)
+duration (duration for each image but change the value of autoTiming to false in settings.xml file)
+-->
+
+<slideshow>
+	<photo image="images/01.jpg"  duration="4" effect="zoom" zoompercent="200" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[<head>Tenemos una gran variedad</head><body>de plantas</body>]]></photo>
+	
+	<photo image="images/02.jpg" duration="4" effect="zoom" zoompercent="200" direction="out" hzoompos="center" vzoompos="center">
+	<![CDATA[<head>Todo para tu</head><body>Jardin</body>]]></photo>
+	
+	<photo image="images/03.jpg" duration="4" effect="kenburns" direction="right"> 
+	<![CDATA[<head>Conoce nuestra</head><body>variedad</body>]]></photo>
+	
+	<photo image="images/04.jpg" duration="4" effect="kenburns" direction="top">
+	<![CDATA[<head>Consulta nuestros</head><body>Tutoriales</body>]]></photo>
+
+	<photo image="images/05.jpg"  duration="4" effect="kenburns" direction="bottom">
+	<![CDATA[<head>Convierte tu casa</head><body>En una verdadero Hogar</body>]]></photo>
+		
+	<photo image="images/06.jpg"  duration="4" effect="zoom" zoompercent="200" direction="out" hzoompos="right" vzoompos="left">
+	<![CDATA[<head>Visita Natura Store</head>]]></photo>
+</slideshow>
