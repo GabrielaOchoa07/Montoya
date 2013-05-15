@@ -352,6 +352,99 @@ img { margin: 0px; padding: 0px; border: none; }
 	outline: none;
 }
 
+#social {
+	text-align: center;
+	padding: 10px;
+}
+iframe {
+	border: 1px solid #9C5959;
+	overflow: hidden;
+	margin: 0;
+}
+
+/**
+ * Remake of "HTML + CSS3 Icons" by Clay Cauley
+ *
+ * Inspiration was taken from: 
+ * -http://designmoo.com/5368/html-css3-icons/
+ */
+a.s3d {
+	clear: both;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+	display: inline-block !important;
+	font: 700 13px/36px 'Arial', Helvetica, Clean, sans-serif;
+	height: 26px;
+	margin: 0 0 10px;
+	padding: 0 10px 11px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+	width: 200px;
+}
+a.twitter {
+	background: #65acc8;
+	background: -webkit-gradient(linear, 0 0, 0 0, from(#65acc8), to(#4586ae));
+	background: -webkit-linear-gradient(, #65acc8, #4586ae);
+	background: -moz-linear-gradient(, #65acc8, #4586ae);
+	background: -o-linear-gradient(, #65acc8, #4586ae);
+	background: -ms-linear-gradient(, #65acc8, #4586ae);
+	background: linear-gradient(, #65acc8, #4586ae);
+	border-top: 1px solid #a1cdde;
+	color: rgba(25, 45, 55, .9);
+}
+a.twitter:active {
+	background: #4586ae;
+	background: -webkit-gradient(linear, 0 0, 0 0, from(#4586ae), to(#65acc8));
+	background: -webkit-linear-gradient(, #4586ae, #65acc8);
+	background: -moz-linear-gradient(, #4586ae, #65acc8);
+	background: -o-linear-gradient(, #4586ae, #65acc8);
+	background: -ms-linear-gradient(, #4586ae, #65acc8);
+	background: linear-gradient(, #4586ae, #65acc8);
+}
+a.facebook {
+	background: #4669ab;
+	background: -webkit-gradient(linear, 0 0, 0 0, from(#4669ab), to(#304886));
+	background: -webkit-linear-gradient(, #4669ab, #304886);
+	background: -moz-linear-gradient(, #4669ab, #304886);
+	background: -o-linear-gradient(, #4669ab, #304886);
+	background: -ms-linear-gradient(, #4669ab, #304886);
+	background: linear-gradient(, #4669ab, #304886);
+	border-top: 1px solid #8ea4cd;
+	color: rgba(21, 31, 53, 1);
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+}
+a.facebook:active {
+	background: #304886;
+	background: -webkit-gradient(linear, 0 0, 0 0, from(#304886), to(#4669ab));
+	background: -webkit-linear-gradient(, #304886, #4669ab);
+	background: -moz-linear-gradient(, #304886, #4669ab);
+	background: -o-linear-gradient(, #304886, #4669ab);
+	background: -ms-linear-gradient(, #304886, #4669ab);
+	background: linear-gradient(, #304886, #4669ab);
+}
+
+.icons {
+	background: url(../images/social.png) no-repeat;
+	bottom: 5px;
+	display: block;
+	height: 26px;
+	position: absolute;
+	right: 10px;
+	width: 25px;
+}
+
+.icons.twitter {
+	background-position: -25px 0;
+}
+.icons.facebook {
+	background-position: -50px 0;
+}
+
 /* end of content */
 
 /* footer */
